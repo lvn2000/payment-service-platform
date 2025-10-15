@@ -8,9 +8,26 @@ Modules
 - psp-api: Tapir/http4s API
 - psp-app: wiring and server
 
-Run
+## Prerequisites
+- Java 11 or higher
+- sbt (Scala Build Tool)
+
+## Running the Application
+
+### Build and Test
 ```bash
-sbt psp-app/run
+sbt clean test
+```
+
+### Run the Application
+```bash
+sbt "project app" run
+```
+
+### Alternative: Run with Docker
+```bash
+./docker-scripts.sh build
+./docker-scripts.sh run
 ```
 
 Server: http://localhost:8080
