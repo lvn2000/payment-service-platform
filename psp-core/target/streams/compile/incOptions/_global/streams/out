@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/lvn/prg/scala/test/Exirom/psp_system/psp-core/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/lvn/prg/scala/test/Exirom/psp_system/psp-core/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionRepo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Validation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerType$A$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerDecision.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Routing$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PaymentServiceImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Routing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerType$B$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerDecision$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PaymentService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerDecision$Approved$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Validation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AcquirerDecision$Denied$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/lvn/prg/scala/test/Exirom/psp_system/psp-core/target/scala-2.13/classes.bak[0m

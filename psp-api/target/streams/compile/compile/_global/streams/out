@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/lvn/prg/scala/test/Exirom/psp_system/psp-api/src/main/scala/psp/api/Api.scala:51:33: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m    import org.http4s.implicits._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
