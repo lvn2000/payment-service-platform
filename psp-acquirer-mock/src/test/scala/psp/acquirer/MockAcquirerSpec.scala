@@ -1,9 +1,8 @@
 package psp.acquirer
 
-import cats.effect.IO
 import cats.effect.unsafe.implicits.global
 import munit.FunSuite
-import psp.core.{AcquirerDecision, AcquirerType}
+import psp.core.AcquirerDecision
 import psp.domain._
 
 class MockAcquirerSpec extends FunSuite {
