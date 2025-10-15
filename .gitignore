@@ -8,6 +8,9 @@ hs_err_pid*
 /.metals/
 /.bloop/
 /.bsp/
+**/.metals/
+**/.bloop/
+**/.bsp/
 /.idea/
 /.vscode/
 *.iml

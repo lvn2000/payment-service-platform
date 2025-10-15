@@ -48,7 +48,6 @@ object Endpoints {
       .errorOut(jsonBody[ErrorResponse])
 
   def routes(paymentService: PaymentService): HttpRoutes[IO] = {
-    import org.http4s.implicits._
     import java.time.YearMonth
 
     val logic: PaymentRequest => IO[Either[ErrorResponse, PaymentResponse]] =
