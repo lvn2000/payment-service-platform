@@ -3,3 +3,27 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IDE/build artifacts (do not push)
+/.metals/
+/.bloop/
+/.bsp/
+/.idea/
+/.vscode/
+*.iml
+.ensime
+.ensime_cache/
+.project
+.classpath
+.settings/
+
+# Build outputs
+/target/
+/project/target/
+/project/**/target/
+/psp-acquirer-mock/target/
+/psp-api/target/
+/psp-app/target/
+/psp-core/target/
+/psp-domain/target/
+/psp-storage/target/
