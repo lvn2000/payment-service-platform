@@ -76,8 +76,16 @@ class PaymentServiceImplSpec extends FunSuite {
       service.process(invalidCard, amount, merchant).attempt.unsafeRunSync()
 
     assert(result.isLeft)
-    assert(result.left.get.isInstanceOf[IllegalArgumentException])
-    assert(result.left.get.getMessage == "Invalid card number")
+    assert(
+      result.swap
+        .getOrElse(throw new RuntimeException("Expected Left"))
+        .isInstanceOf[IllegalArgumentException]
+    )
+    assert(
+      result.swap
+        .getOrElse(throw new RuntimeException("Expected Left"))
+        .getMessage == "Invalid card number"
+    )
   }
 
   test("PaymentServiceImpl should route to correct acquirer based on BIN") {
