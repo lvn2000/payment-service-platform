@@ -17,13 +17,25 @@ hs_err_pid*
 .classpath
 .settings/
 
-# Build outputs
-/target/
-/project/target/
-/project/**/target/
-/psp-acquirer-mock/target/
-/psp-api/target/
-/psp-app/target/
-/psp-core/target/
-/psp-domain/target/
-/psp-storage/target/
+# Build outputs - comprehensive sbt patterns
+target/
+**/target/
+project/target/
+project/project/target/
+project/project/project/target/
+project/project/project/project/target/
+
+# sbt streams and cache
+**/streams/
+**/.sbt/
+**/cache/
+**/ivy2/
+**/coursier/
+
+# Specific module targets
+psp-acquirer-mock/target/
+psp-api/target/
+psp-app/target/
+psp-core/target/
+psp-domain/target/
+psp-storage/target/
